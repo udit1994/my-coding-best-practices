@@ -44,9 +44,19 @@ Typescript is awesome but it comes at a cost of lot extra symbols, try keep your
 
 - Follow tree shaking best practices, like
 
+```
   className.do(methodName)
+```
 
-  This allows you to write functions outside of your class and when bundling only the methods used will go in the bundle.
+This allows you to write functions outside of your class and when bundling only the methods used will go in the bundle.
+
+Test performance using dev tools or
+
+```
+console.time("...")
+
+performance.now("...")
+```
 
 ## React
 
